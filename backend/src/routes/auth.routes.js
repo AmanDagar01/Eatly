@@ -1,12 +1,20 @@
 const express = require('express');
-const { registerUser, loginUser, logoutUser } = require('../controllers/auth.controller');
-
+const authController = require("../controllers/auth.controller")
 
 const router = express.Router();
 
-// user auth
-router.post('/user/register', registerUser)
-router.post('/user/login', loginUser)
-router.get('/user/logout', logoutUser)
+// user auth APIs
+router.post('/user/register', authController.registerUser)
+router.post('/user/login', authController.loginUser)
+router.get('/user/logout', authController.logoutUser)
+
+
+
+// food partner auth APIs
+router.post('/food-partner/register', authController.registerFoodPartner)
+router.post('/food-partner/login', authController.loginFoodPartner)
+router.get('/food-partner/logout', authController.logoutFoodPartner)
+
+
 
 module.exports = router;
