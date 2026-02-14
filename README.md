@@ -241,7 +241,7 @@ PORT=3000 (optional, defaults to 3000)
 | Variable | Description | Example |
 |----------|-------------|---------|
 | `JWT_SECRET` | Secret key for signing JWT tokens | `your-secret-key-here` |
-| `MONGODB_URI` | MongoDB connection string | `mongodb+srv://user:password@cluster.mongodb.net/eatly` |
+| `MONGODB_URI` | MongoDB connection string | `mongodb-url` |
 | `IMAGEKIT_PUBLIC_KEY` | ImageKit public key for file uploads | `public_key_xxx` |
 | `IMAGEKIT_PRIVATE_KEY` | ImageKit private key for server authentication | `private_key_xxx` |
 | `IMAGEKIT_URL_ENDPOINT` | ImageKit URL endpoint for serving images | `https://ik.imagekit.io/your_id` |
