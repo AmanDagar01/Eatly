@@ -252,6 +252,21 @@ To get started:
 2. Fill in all the required values
 3. Never commit `.env` to version control
 
+## 📸 Screenshots
+
+### App in Action
+
+Here are some screenshots of the Eatly application:
+
+![Screenshot 1](./screenshots/Screenshot%202026-02-14%20162158.png)
+
+
+![Screenshot 2](./screenshots/Screenshot%202026-02-14%20162338.png)
+
+
+![Screenshot 3](./screenshots/Screenshot%202026-02-14%20162506.png)
+
+
 ## 🤝 Contributing
 
 1. Create a feature branch (`git checkout -b feature/amazing-feature`)
